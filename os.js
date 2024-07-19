@@ -1,2 +1,3 @@
 const os = require('node:os');
-os.hostname()
+console.log(os.hostname())
+console.log(os.version())
